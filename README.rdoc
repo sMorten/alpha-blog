@@ -1,1 +1,1 @@
-This is the repository for my first Rails App from the Udem complete Rails Developer course
+This is the repository for my first Rails App from the Udemy complete Rails Developer course
