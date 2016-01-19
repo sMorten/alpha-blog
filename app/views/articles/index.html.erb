@@ -15,6 +15,7 @@
       <td><%= d.description %></td>
       <td><%= link_to 'edit', edit_article_path(d) %></td>
       <td><%= link_to 'show', article_path(d) %></td>
+      <td><%= link_to 'delete', article_path(d), method: :delete, data: {confirm: "Are you sure?"} %></td>
 
   </tr>
 
