@@ -20,6 +20,7 @@ class CategoriesController < ApplicationController
         render 'new'
     end
   end
+ 
 
   def show
 
