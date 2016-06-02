@@ -20,10 +20,11 @@ class CategoriesController < ApplicationController
         render 'new'
     end
   end
- 
+
 
   def show
-
+    @category = Category.find(params[:id])
+    @category_articles = @category.articles.paginate(page: params[:page], per_page: 5)
   end
 private
   def category_params
